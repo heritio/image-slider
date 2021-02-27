@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.container{
+    width: 100%;
+    height: max-content;
+    margin: 100px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrow{
+    font-size: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: min-content;
+}

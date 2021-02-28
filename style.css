@@ -20,7 +20,22 @@ img{
 
 .arrow{
     font-size: 80px;
-    border: 1px solid black;
-    border-radius: 50%;
+    cursor: pointer;
     width: min-content;
+}
+.arrow:hover{
+    color: gray;
+}
+
+.navdots{
+    text-align: center;
+}
+.navdots > *{
+    margin: 0px 20px;
+    font-size: 30px;
+}
+
+.navdots > *:hover{
+    color: gray;
+    cursor: pointer;
 }
